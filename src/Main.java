@@ -87,9 +87,9 @@ public class Main {
         // https://docs.oracle.com/javase/tutorial/datetime/iso/date.html
         boolean validLeapYear = Year.of(y).isLeap();
         if(!validLeapYear) {
-            System.out.println("Year " + y + " is not a leap year");
+            System.out.println("Year " + year + " is not a leap year");
         } else {
-            System.out.println("Year " + y + " is a leap year");
+            System.out.println("Year " + year + " is a leap year");
         }
     }
     
