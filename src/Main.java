@@ -92,5 +92,4 @@ public class Main {
             System.out.println("Year " + year + " is a leap year");
         }
     }
-    
 }
